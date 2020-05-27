@@ -1,0 +1,11 @@
+root@kali:~# chmood -R 755 Instagram && cd Instgram
+root@kali:~/Instgram#
+root@kali:~/instagram ls
+Core  README.md  instagram.py
+root@kali:~/instagram#
+root@kali:~/instagram# python instagram.py
+usage: instagram.py [-h] username wordlist
+instagram.py: error: too few  arguments
+root@kali:~/instagram# ls
+10_million_password_list_top_1000000.txt  Core  README.md instagram.py
+roo@kali:~/instagram# python instagram.py navisaayufhh mssql-passwords-nansh0u-guardicore.txt 
